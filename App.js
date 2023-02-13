@@ -23,8 +23,8 @@ const Card = () => {
         </View>
       </View>
       <View style={styles.cardDescription}>
-        <Text style={styles.name}>BMW X6M Series</Text>
-        <View style={styles.rating}></View>
+        <Text style={styles.name}>BMW M4 Series</Text>
+        <Text style={styles.rating}>Rating: 4.5</Text>
         <Text style={styles.price}>$155,000</Text>
       </View>
     </View>
@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
   },
   card: {
-    width: 180,
-    height: 240,
+    width: "100%",
+    height: 400,
 
   },
 
