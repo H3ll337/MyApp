@@ -79,14 +79,14 @@ const styles = StyleSheet.create({
   },
 
   name: {
-
+    fontWeight: "bold",
   },
   rating: {
 
   },
 
   price: {
-
+    fontWeight: "bold",
   }
 
 });
